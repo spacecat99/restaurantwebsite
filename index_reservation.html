@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Datepicker CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="index_reservation.css">
+    <link rel="stylesheet" href="mouse_cursor.css">
+    <link rel="stylesheet" href="index_grid.css">
+    <script src="index2.js"></script>
+    <script defer src="mouse_cursor.js"></script>
+</head>
+<body>
+    <!-- Reservation Form -->
+<div class="overlay">
+    <section id="reservation" class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2>Reservation Form</h2>
+                <form id="reservationForm">
+                    <div class="form-group">
+                        <label for="firstName">Name:</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Ihre Name eingeben" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telNumber">Tel Number:</label>
+                        <input type="tel" class="form-control" id="telNumber" placeholder="Ihre Tel. Nummer eingeben" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ihre Email-Adresse eingeben" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Datum:</label>
+                        <input type="text" class="form-control" id="date" placeholder="Datum eingeben" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Uhrzeit:</label>
+                        <input type="time" class="form-control" id="time" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Anzahl Gäste:</label>
+                        <select class="form-control" id="occasion" required>
+                            <option value="">1</option>
+                            <option value="Social">2</option>
+                            <option value="Birthday">3</option>
+                            <option value="Anniversary">4</option>
+                            <option value="Engagement">5</option>
+                            <option value="Wedding">6</option>
+                            <option value="Corporate meeting">7</option>
+                            <option value="Funeral">8+</option>
+                        </select>
+                    </div>
+                    
+                    
+                    
+                    
+                    <button class="pillbutton" type="submit" class="btn btn-primary w-100 mt-3">SENDEN</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <!-- Bootstrap & jQuery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Datepicker JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Initialize datepicker
+            $('#date').datepicker({
+                format: 'yyyy-mm-dd',
+                startDate: '0d',
+                endDate: '+6d',
+                daysOfWeekDisabled: [0, 1, 2, 3, 4],
+                autoclose: true
+            });
+
+            // Submit reservation form
+            $('#reservationForm').submit(function(e) {
+                e.preventDefault();
+                alert('Reservation submitted successfully!');
+            });
+        });
+    </script>
+</body>
+</html>
+
+

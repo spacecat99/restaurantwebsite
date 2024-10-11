@@ -1,0 +1,499 @@
+body{
+    background-color: #faedcd;
+    color:#36422c;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-family: 'Inter', sans-serif;
+  
+  }
+  *{
+    box-sizing: border-box;
+  }
+  
+  .container{
+    padding: 0;
+    margin: 0;
+    position: relative;
+      
+  }
+  
+  #example {
+    scroll-behavior: smooth;
+  }
+
+  .text{
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Horizontally center child elements */
+    align-items: center; /* Vertically center child elements */
+
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size:20px;
+    padding-top:9%;
+    width:60%;
+    word-wrap: break-word;
+    letter-spacing: 4px;
+    line-height: 30px;
+    
+}
+  
+.quote {
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    max-height: 100%;
+  }
+  
+  .pageTitle{
+    display:inline-block;   
+    font-family: 'Inter', sans-serif;
+    color:rgba(35, 35, 35, 1);
+    font-weight:450 ;
+    font-size: 9vw;
+    line-height: 7vw;
+    letter-spacing: -0.4vw;
+    margin:0px;
+    padding-top: 6%;
+     
+   }
+
+  .pageTitle2{
+   display:block;   
+   font-family: 'Inter', sans-serif;
+   color:rgba(35, 35, 35, 1);
+   font-weight:600 ;
+   font-size:150px;
+   line-height:100px;
+   letter-spacing: -9px;;
+   margin:0px;
+   padding-top:2%;
+   padding-bottom:2%;
+  
+  }
+  
+  .heropic{
+   position: absolute;
+   padding-left: 30%;
+   z-index: -1;
+}
+
+
+.heropic2{
+    position: absolute;
+    padding-left: 60%;
+    z-index: +1;
+    padding-top: 10%;
+ }
+
+    
+  
+ .logo{
+    position: absolute;
+    z-index: +1;
+     width: 16%;
+ }
+  
+
+   
+     
+    #qeeckaction{
+      display: flex;
+      justify-content: center;
+      margin-right: auto;
+      margin-left: auto;
+      height: auto;
+      clear:both;
+      padding: 10%;
+  
+    }
+  
+    .pillbutton{
+      display: block;
+      padding: 10px;
+      background-color: rgba(236, 109, 50, 1);
+      color: rgba(35, 35, 35, 1);
+      border: none;
+      border-radius: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      font-size: 16px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      width: 30%;
+    }
+  
+    .pillbutton a:hover {
+      background-color: rgba(243, 162, 124);
+    }
+  
+    .pillbutton span {
+      display: block;
+      pointer-events: none;
+    }
+  
+   
+
+.teampic{
+
+  position: absolute;
+  padding-left: 0;
+  z-index: -1;
+
+}
+
+.texthomepage{
+  display: block;
+  margin-left: 50%;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  font-size: 1.5vw;
+  padding-top: 4%;
+  word-wrap: break-word;
+  letter-spacing: 0.3vw;
+  line-height: 2vw;
+  z-index: -1;
+  padding-top: 0;
+}
+
+.texthomepage2{
+  display:block;
+  color:rgba(35, 35, 35, 1);
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  font-size:20px;
+  padding-top:4%;
+  word-wrap: break-word;
+  letter-spacing: 4px;
+  line-height: 25px;
+  z-index: -1;
+  width: 49%;
+  }
+
+.container2{
+  padding-top: 14%;
+  padding-left: 52%;
+  margin: 0;
+  position: relative;
+    
+}
+
+.container3{
+  margin: 0;
+  position: relative;
+  background-color: #36422c;
+  color: #faedcd;
+  align-content: center;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.novita{
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  font-size:18px;
+  word-wrap: break-word;
+  letter-spacing: 4px;
+  line-height: 28px;
+  z-index: +1;
+  padding: 3%;
+  padding-top: 1%;
+}
+
+h1{
+  line-height: 1.3vw;
+  
+
+}
+
+.sonntag{
+  padding-bottom: 3%;
+  padding-left: 3%;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  font-size:18px;
+  word-wrap: break-word;
+  letter-spacing: 4px;
+  line-height: 28px;
+  z-index: +1;
+  }
+
+
+.heropic3{
+  position: absolute;
+  z-index: -1;
+   }
+
+.heropic4{
+  position: absolute;
+  padding-left: 20%;
+  z-index: +1;
+  padding-top: 20%;
+}
+
+.texthomepage2{
+  display:block;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  font-size:20px;
+  padding-top:4%;
+  word-wrap: break-word;
+  letter-spacing: 4px;
+  line-height: 25px;
+  z-index: +1;
+  padding-top: 0;
+
+}
+
+
+.press{
+  padding-top: 8%;
+}
+
+
+
+   #middle{
+    padding-top: 150%;
+    padding: 30px;
+    margin-bottom: 60px;
+  }
+  
+  .pTitle{
+  position: relative;
+  width:60%;
+  float: right;
+  clear: both;
+  font-size:25px;
+  text-transform: capitalize;
+  margin-bottom:0px;
+  }
+  
+  #middle p{
+    position:relative;
+    width:60%;
+    clear:both;
+    float: right;
+    text-align: justify;
+  
+  }
+  
+  #navigation{
+    position: relative;
+    padding-top:5%;
+    padding-bottom:;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 6px;
+    width: 50%;
+    height: auto;
+    clear:both;
+  }
+  
+  
+  p2{
+    font-family: 'Tomorrow', sans-serif;  
+    display: flex;
+    text-align: left;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    }
+  
+  
+  .grid{
+    display: grid;
+    grid-template-columns:150px 150px 150px 150px ;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .grid2{
+    display: grid;
+    grid-template-columns:400px 400px 400px ;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .grid3{
+    padding-top: 15%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    }
+    
+    .floatimg img{
+      float: right;
+  
+    }
+  
+  .list{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+  }
+  .header-nav{
+    padding: 8px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar-header{
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 3vw;
+    text-transform: uppercase;
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 5px 5px;
+  
+  }
+  
+  .icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  
+  div a {
+    color: white;
+    padding: 9px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .MagicScroll[data-mode="cover-flow"] {
+      background-color: <your-colour>;
+  }
+  /* Change the link color to #111 (black) on hover */
+  
+  
+  .header-nav a:hover, a:focus{
+    background-color: #111;
+    color: gray;
+      transition: all 500ms;
+      font-size-adjust: 19vw;
+  
+  }
+  
+  .header-nav a:not(:hover){
+    transition: all 500ms;
+    font-size-adjust: 16vw;
+  }
+  
+  .navbar-header{
+  
+  }
+  
+  #canvas-container {
+      width: 300px;
+      height: 300px;
+      overflow: hidden;
+    }
+  
+  
+  
+    .pic {
+      display: flex; /* Enable flexbox layout */
+      justify-content: center; /* Horizontally center child elements */
+      align-items: center; /* Vertically center child elements */
+    }
+    
+    .pic img {
+      max-width: 100%; /* Ensure the image doesn't overflow its container */
+      max-height: 100%;
+    }
+    
+  
+    .cropped{
+      position: flex;
+      clip: rect(0, auto, auto, 0); /* Clip the image to the size of the container */
+      max-width: 80% !important;
+      height: auto !important;
+      z-index: -1;
+      clear: both;
+      float: right;
+  
+    }
+    .grid8{
+      display: grid;
+      grid-template-columns: 1.3fr 1.7fr;
+      justify-content: center;
+      padding-bottom: 20px;
+      align-items: center;
+      overflow-y: auto;
+      
+    }
+
+
+
+
+
+
+
+
+
+
+    
+
+/************Small devices***************/
+    @media screen and (max-width: 766px) {
+      
+        
+      body {
+        background-image: image(foto\TAVOLO - Copy.jpg);
+        padding-right: 0%;
+        padding-left: 0%;
+      }
+
+      #navigation{
+        position: relative;
+        padding-top:5%;
+        padding-bottom:10%;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        clear:both;
+      }
+
+      .container{
+        padding: 0;
+        margin: 0;
+        position: revert;
+        align-content: center;
+        display: flex;
+        justify-content: center;
+    
+      }
+
+      .logo{
+        width: 20vw;
+      }
+
+      #navigation{
+        position: relative;
+        padding-top:50%;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+        max-width: 100%;
+        height: auto;
+        clear:both;
+      }
+  
+
+    }
+   

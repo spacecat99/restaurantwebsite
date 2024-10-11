@@ -1,0 +1,131 @@
+.grid{
+    padding-top: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .grid1{
+        clear: left;
+        display: grid;
+        width: 55%;
+        float: left;
+       grid-template-columns:150px 150px 150px 150px ;
+      }
+      @media screen and (max-width: 600px) {
+        .grid1{
+          clear: left;
+          display: grid;
+          grid-template-columns:1fr 1fr 1fr 1fr;
+        }
+      }
+
+      .grid11{
+        clear: left;
+        display: grid;
+        padding-left: 75%;
+        grid-template-columns: 150px 150px ;
+        padding-top: 5%;
+      }
+
+.grid2{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    justify-content: center;
+    
+  }
+  
+.grid3{
+    display: grid;
+    grid-template-columns: 2fr 0.3fr 1fr;
+    justify-content: flex-start;
+    justify-content:baseline;
+    border-bottom:3px solid #111;
+
+  
+  }
+  
+.grid4  {
+    display:grid;
+    grid-template-columns: 1.3fr 1.7fr;
+    justify-content: left;
+}
+
+.grid5{
+    display: grid;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1.5fr 1.5fr;
+    padding-left: 55%;
+    
+  }
+
+  .grid6{
+    display: grid;
+    grid-template-columns: 2fr 0.3fr 1fr;
+    justify-content: flex-start;
+    justify-content:baseline;
+     grid-template-columns: 1.5fr 1.5fr;
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+    max-height: 100%;
+    font-family: 'Tomorrow', sans-serif; 
+    font-size: 20px;
+    color: rgba(35, 35, 35, 1);
+    text-align: center;
+    padding-top: 5%;
+  }
+
+
+.grid8{
+    display: grid;
+    grid-template-columns: 1.3fr 1.7fr;
+    justify-content: center;
+    padding-bottom: 20px;
+    align-items: center;
+    overflow-y: auto;
+    
+  }
+
+
+
+
+  
+  .list{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+  }
+  .header-nav{
+    padding: 8px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-header{
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 5px 5px;
+  }
+  div a {
+    color: rgba(35, 35, 35, 1);
+    padding: 9px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  /* Change the link color to #111 (black) on hover */
+  div a:hover {
+    background-color: #588157;
+  }

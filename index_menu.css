@@ -1,0 +1,194 @@
+
+body{
+    background-color: #faedcd;
+    color:rgba(35, 35, 35, 1);
+    padding-top: 0%;
+    
+    font-family: 'Inter', sans-serif;
+  
+  }
+
+.heropic{
+  z-index:-1;
+
+
+}
+  
+  .logo{
+    position: absolute;
+    z-index: +1;
+    padding-bottom: 3% ;
+ }
+
+ 
+  .menu_pic{
+    width: 100%;
+    left:20%;
+    position: relative;
+    padding-top: 3%;
+
+  }
+
+  .mittags-datum{
+    justify-content: center;
+  }
+  
+
+  .m-datum{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-size:20px;
+    letter-spacing: 4px;
+    color: rgba(35, 35, 35, 1);
+    
+    }
+
+.block{
+    color: #36422c;
+    inline-size: 100%;
+    writing-mode: vertical-rl;
+    border-block-style: solid;
+    border-block-width: 200px;
+    z-index:-1;
+    position: fixed;
+
+  }
+    
+
+  .tagesmenu-text{
+    padding-left:32%;
+    position: absolute;
+    z-index: +1;
+  }
+
+ 
+
+  .tag{
+    text-transform: uppercase;
+    writing-mode:vertical-rl;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-size:100px;
+    padding-top:4%;
+    letter-spacing: 4px;
+    line-height: 25px;
+    color: rgba(35, 35, 35, 1);
+    line-height: 105px;
+    border-left:3px solid rgba(35, 35, 35, 1);
+        
+  }
+
+  .datum{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-size:100px;
+    padding-top:4%;
+    letter-spacing: 4px;
+    line-height: auto;
+    color: rgba(35, 35, 35, 1);
+    padding-left: 10%;
+    line-height: 80px;
+  }
+
+  .title{
+    background-image: src('foto\TAVOLO - Copy.jpg');
+    position: absolute;
+    z-index: +1;
+    font-weight:initial;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-size:5rem;
+    padding-top:20%;
+    letter-spacing: 4px;
+    line-height: 25px;
+    color: rgba(35, 35, 35, 1);
+    
+  }
+
+ .text{
+  max-width: 100%; /* Ensure the image doesn't overflow its container */
+  max-height: 100%;
+  font-family: 'Tomorrow', sans-serif; 
+  font-size: 20px;
+  color: rgba(35, 35, 35, 1);
+  text-align: center;
+  padding-top: 2%;
+}
+ 
+
+.food_pic{
+  padding-top:0;
+  padding-bottom: 5%;
+}
+
+.text2{
+  
+  max-width: 100%; /* Ensure the image doesn't overflow its container */
+  max-height: 100%;
+  font-family: 'Tomorrow', sans-serif; 
+  font-size: 20px;
+  color: rgba(35, 35, 35, 1);
+  text-align: center;
+  padding-top: 2%;
+}
+
+
+.menu_title{
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  padding-top: 8%;
+  padding-bottom: 3%;
+}
+
+p1{
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.preis{
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  padding-top: 3%;
+
+}
+
+
+
+.containerButton{
+  padding-top: 4%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.pillbutton{
+  display: block;
+  padding: 10px;
+  background-color: rgba(236, 109, 50, 1);
+  color: rgba(35, 35, 35, 1);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  width: 30%;
+}
+
+.pillbutton a:hover {
+  background-color: rgba(243, 162, 124);
+}
+
+.pillbutton span {
+  display: block;
+  pointer-events: none;
+}
